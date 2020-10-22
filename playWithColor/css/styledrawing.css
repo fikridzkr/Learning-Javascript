@@ -1,0 +1,29 @@
+
+.download {
+    padding: 10px 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    color: #432a68;
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 100%;
+    margin-top: 100%;
+    }
+    
+    .download:hover {
+        background-color: #432a68;
+        color: #F7F7F7;
+    }
+    .download:focus{
+        outline: none;
+    }
+    
+    .download:active {
+    background-color: #432a68;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    outline: none;
+    }
